@@ -1,3 +1,4 @@
+var authenticated=false;
 function locked() 
 {
   alert("Chức năng đã bị khóa!");
@@ -8,6 +9,7 @@ function check()
 
       console.log("yes")
       window.location.replace("/pages/map.html");
+      authenticated=true
     }
     else {
       alert("Tên người dùng hoặc mật khẩu sai!");

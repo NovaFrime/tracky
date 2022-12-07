@@ -57,8 +57,9 @@
     opacity: 0;
     color: #585858; }
     #map {
-      height: 400px;
+      height: 800px;
       /* The height is 400 pixels */
-      width: 100%;
+      border-radius: 20px;
+      width: 50%;
       /* The width is the width of the web page */
     }
